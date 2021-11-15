@@ -1,0 +1,36 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --dir --mac"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^15.3.0",
+    "electron-builder": "^22.13.1"
+  },
+  "dependencies": {
+    "applescript": "^1.0.0",
+    "loudness": "^0.4.1"
+  },
+  "build": {
+    "mac": {
+      "target": {
+        "target": "dir",
+        "arch": "arm64"
+      }
+    }
+  }
+}
